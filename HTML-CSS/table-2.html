@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>표 만들기</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+        }
+        th{
+            padding: 15px;
+        }
+        tr > td:nth-child(odd){
+            width:120px;
+        }
+        tr > td:nth-child(even){
+            width:300px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>이름</th>
+            <td><p>백광민</p></td>
+            <th>연락처</th>
+            <td><p>010-5329-5798</p></td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td colspan="3"><p>세종특별자치시 마음로67</p></td>
+        </tr>
+        <tr>
+            <th>자기소개</th>
+            <td colspan="3"><p>백광민이라고합니다.</p></td>
+        </tr>
+    </table>
+</body>
+</html>

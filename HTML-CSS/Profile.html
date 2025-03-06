@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Profile</title>
+    <style>
+         .frame{
+            display: inline-block;
+            flex-direction: column;
+        }
+        body{
+            background-color: #efe7e3;
+        }
+        h1{
+            margin-left: 90px;
+            margin-right: 60px;
+        }
+        p{
+            font-size: 15px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 120px;
+        }
+        ol{
+            margin-top: 8px;
+            margin-left: -90px;
+        }
+        li{
+            font-size: 15px;
+            list-style-type: none;
+            margin-left: 80px;
+            line-height: 15px;
+        }
+        hr{
+            margin-top: 45px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 45px;
+        }
+        .sample{
+            color: black;
+        }
+        .sample:hover{
+            color: white;
+            transition: none;
+        }
+        .sample1{
+            background-color: rgb(245, 242, 98);
+        }
+        .sample1:hover{
+            background-color: transparent;
+            color: black;
+            transition: none;
+        }
+        table, th, td{
+            border: 1px solid;
+            margin-left: 90px;
+        }
+        td, th{
+            padding: 1px;
+            text-align: center;
+        }
+        figcaption{
+            margin-left: 235px;
+        }
+        div{
+            display: inline-block;
+        }
+        .dashboard{
+            display: inline-block;
+            background-color: gray;
+        }
+        .dashboard > p{
+            margin-left: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+<div class = "frame">
+    <div class = "dashboard">
+    <img src="images/hp.png" width="500" alt="해리포터">
+
+    </div>
+    <div>
+    <h1><a class="sample">Who am I ?</a></h1>
+    <p><a class="sample1"><b>프런트엔드 웹 기술(Front-end Web Tech)</b></a>에 관심이 많습니다.<br>
+    현재 제주의 한 시골 마을에서 코딩 중입니다.<br>
+    </p>
+    <hr>
+    <h1><a class="sample">Experience</a></h1>
+    <ul>
+        <li><b>프론트엔드 개발</b>
+            <ol>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ol>
+            </li>
+            <br>
+            <li><b>웹 디자인</b>
+            <ol>
+                <li>FIGMA</li>
+                <li>FIXABAY</li>
+                
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <h1><a class="sample">Skills</a></h1>
+    <ul>
+        <b>
+        <li>Oracle</li>
+        <li>Java</li>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>Arduino</li>
+        </b>
+    </ul>
+    <hr>
+    <h1><a class="sample">Education</a></h1>
+    <figure>
+    <figcaption>학력 사항</figcaption>
+    <table border="2">
+        <tr>
+            <th>출신학교</th>
+            <th>전공</th>
+            <th>기간</th>
+            <th>구분</th>
+        </tr>
+        <tr>
+        <td>두루고등학교</td>
+        <td>문과</td>
+        <td>2017.3 - 2020.2</td>
+        <td>졸업</td>
+        </tr>
+        <tr>
+            <td>상하이교통대학교</td>
+            <td>대외무역과</td>
+            <td>2020.09 - 2021.06</td>
+            <td>중퇴</td>
+        </tr>
+    </table>
+</figure>
+</div>
+</div>
+</body>
+</html>
